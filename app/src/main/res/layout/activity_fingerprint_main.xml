@@ -10,9 +10,26 @@
     tools:context="fingerprint.com.antzuhl.FingerprintMainActivity">
 
     <ImageView
+        android:id="@+id/image_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/henu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fingerprint_guide"
+        android:layout_alignLeft="@+id/fingerprint_guide_tip"
+        android:layout_alignStart="@+id/fingerprint_guide_tip"
+        android:layout_marginBottom="13dp"
+        android:text="@string/app_name"
+        android:textSize="24sp" />
+
+    <ImageView
         android:id="@+id/fingerprint_guide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/image_other"
         android:layout_centerHorizontal="true"
         android:background="@drawable/fingerprint_normal" />
 
@@ -20,6 +37,7 @@
         android:id="@+id/fingerprint_guide_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:text="@string/fingerprint_recognition_guide_tip"
         android:textSize="18sp"
@@ -45,9 +63,10 @@
     <Button
         android:id="@+id/fingerprint_recognition_sys_unlock"
         android:layout_width="1px"
+
         android:layout_height="1px"
         android:layout_below="@id/fingerprint_recognition_cancel"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="0dp"
         android:text="" />
 
     <Button
@@ -55,6 +74,6 @@
         android:layout_width="1px"
         android:layout_height="1px"
         android:layout_below="@id/fingerprint_recognition_sys_unlock"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="0dp"
         android:text="" />
 </RelativeLayout>
