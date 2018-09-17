@@ -3,6 +3,8 @@
 
 #### 在安卓6.0中新增了API，FingerprintManager类，它是Google提供的帮助访问指纹硬件的API类
 
+#### [Github项目地址](https://github.com/CasterWx/android-fingerprint)
+
 #### 新增API权限的过程如下
 
        ContextCompact.checkSelfPermission  // 检查APP是否拥有某权限
