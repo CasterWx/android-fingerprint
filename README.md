@@ -3,6 +3,8 @@
 
 #### 在安卓6.0中新增了API，FingerprintManager类，它是Google提供的帮助访问指纹硬件的API类
 
+#### [官方文档](http://www.zhdoc.net/android/reference/android/hardware/fingerprint/FingerprintManager.html)
+
 #### [Github项目地址](https://github.com/CasterWx/android-fingerprint)
 
 #### 新增API权限的过程如下
