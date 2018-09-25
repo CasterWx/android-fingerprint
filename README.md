@@ -1,5 +1,5 @@
 # android-fingerprint
->创新实践——安卓指纹识别，利用FingerprintManager主类进行指纹识别。
+> 创新实践——安卓指纹识别，利用FingerprintManager主类进行指纹识别。
 
 #### 在安卓6.0中新增了API，FingerprintManager类，它是Google提供的帮助访问指纹硬件的API类
 
