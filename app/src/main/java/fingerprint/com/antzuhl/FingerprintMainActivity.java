@@ -63,6 +63,7 @@ public class FingerprintMainActivity extends Activity implements View.OnClickLis
             case R.id.fingerprint_recognition_cancel:
                 cancelFingerprintRecognition();
                 break;
+				// set
 //            case R.id.fingerprint_recognition_sys_unlock:
 //                startFingerprintRecognitionUnlockScreen();
 //                break;
