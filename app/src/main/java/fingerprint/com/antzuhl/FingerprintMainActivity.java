@@ -31,6 +31,7 @@ public class FingerprintMainActivity extends Activity implements View.OnClickLis
         setContentView(R.layout.activity_fingerprint_main);
         initViews();
         initViewListeners();
+		
         initFingerprintCore();
     }
 
