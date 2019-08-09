@@ -1,6 +1,12 @@
 # android-fingerprint
 > 创新实践——安卓指纹识别，利用FingerprintManager主类进行指纹识别。
 
+
+###### 欢迎关注公众号，开启和我的交流
+
+![weix](https://www.cnblogs.com/images/cnblogs_com/LexMoon/1391533/o_qrcode_for_gh_f3457f4f73a1_258.jpg)
+
+
 #### 在安卓6.0中新增了API，FingerprintManager类，它是Google提供的帮助访问指纹硬件的API类
 
 #### [官方文档](http://www.zhdoc.net/android/reference/android/hardware/fingerprint/FingerprintManager.html)
